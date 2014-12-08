@@ -1,0 +1,7 @@
+{
+
+  // Java verticle
+  "main":"com.mycompany.PingVerticle",
+
+  "auto-redeploy": true
+}

@@ -1,0 +1,8 @@
+web:
+ build: .
+ command:
+ volumes:
+  - .:/code:rw
+  - ~/.m2:/root/.m2
+ ports:
+  - "8080:8080"
