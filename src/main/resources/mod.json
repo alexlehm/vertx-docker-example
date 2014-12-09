@@ -2,6 +2,6 @@
 
   // Java verticle
   "main":"com.mycompany.PingVerticle",
-
+  "includes": "io.vertx~mod-mongo-persistor~2.1.0",
   "auto-redeploy": true
 }
